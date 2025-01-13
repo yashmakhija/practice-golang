@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func urlController(ctx *gin.Context)  {
+func urlController(ctx *gin.Context){
 	ctx.JSON(http.StatusOK, gin.H{
 		"message": "url controller",
 	})

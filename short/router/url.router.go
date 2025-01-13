@@ -1,7 +1,7 @@
 package router
 
 import (
-	"short/controller"
+	"github.com/yashmakhija/practice-golang/tree/main/short/controller"
 
 	"github.com/gin-gonic/gin"
 )
